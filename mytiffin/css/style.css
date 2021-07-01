@@ -1,0 +1,240 @@
+*{ padding: 0px; margin: 0px; box-sizing: border-box; font-family: Arial }
+
+body {  }
+
+/* classess */
+
+.clear  { clear: both }
+.container { width: 100%;}
+.width { max-width: 990px; margin: auto; }
+.shadow_bottom { box-shadow: 0 8px 6px -6px pink; }
+.bg-gray { background-color: pink; }
+.full-width {width:100%;}
+
+
+/* general tags style */
+
+p { line-height: 40px; }
+a { text-decoration: none;color: black; }
+
+/* index page */
+
+.main_page_header { background: url('../graphics/background.jpg') top left no-repeat; background-size: 100% 100%;border-bottom: 2px solid pink;}
+.main_page_header .logo_pic { padding: 60px; width: 60%;float: left; }
+.main_page_header .logo_pic img { width: 80%; border-radius: 60%; border: 5px solid white; opacity: 1 }
+.main_page_header .logo_detail { width: 30%; float: left; padding: 20px 10px;   }
+.main_page_header .logo_detail h1 { color: black; font-size: 50px ;padding-top: 150px;
+    }
+.main_page_header .logo_detail p { font-size: 18px; margin-left: 8px; }
+.main_page_header .logo_detail .social_links { padding: 50px; }
+.main_page_header .logo_detail a { width: 20px; height: 20px; }
+
+
+.header-social-links-1
+{
+	float: right;
+	margin-right: 50px;
+	display: inline-block;
+
+}
+
+.header-social-links-1 li a 
+{
+       width: 15px;
+    height: 20px;
+    color: #333;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 0;
+    margin-left: 3px;
+}
+.header-social-links-1 li a:hover
+{
+color: black;
+
+}
+
+
+
+
+#main_page_nav ul li { list-style: none;display: inline-block; padding: 15px 15px; cursor: pointer; }
+
+#main_page_nav ul li:hover{
+	background-color: pink;
+}
+
+.cover { margin-top: 2px; }
+.cover img { width: 100%; }
+
+
+
+
+
+.main_content h1 {     font-size: 27px; color: black; text-align: center; padding-top: 75px;
+    padding-bottom: 30px; }
+.main_content p {color: black; text-align: center; padding: 20px 10px; }
+.width.main_content button {background-color: transparent;
+border-radius: 10px;
+    padding: 10px;
+    width: 110px; float: right center; font-weight: bold;}
+ 
+.width.main_content button:hover{
+	background-color:pink;
+}
+
+
+
+
+
+.testimonials { background-color: #f8f8f8; padding: 25px; }
+.testimonials_row { background-color: #f8f8f8; 	background-color: lightgray; border-radius: 15px; margin: 15px auto; }
+.testimonials h1 { text-align: center;font-size: 50px; padding: 20px; }
+.testimonials .testimonials_icon  { width: 20%; float: left; padding: 25px; }
+.testimonials .testimonials_icon img  { width: 100%; border-radius: 50%; border: 5px solid gray; padding: 5px;  }
+.testimonials .testimonials_detail { width: 80%; float: left; padding: 20px; }
+.testimonials .testimonials_detail p { width: 80%;  }
+
+
+/*about page*/
+
+
+.header .logo { float: left;
+    width: 145px;
+    padding: 0px }
+.header .logo img  { width: 100%; }
+.header ul { margin-left: 260px;
+    padding-top: 55px; }
+.header ul li { list-style: none;display: inline-block; padding: 16px 6px;border-radius: 5px; cursor: pointer; font-size: 16px; }
+
+.header ul li:hover{
+	background-color: pink;
+}
+
+
+.about { padding: 25px 0px; }
+.about h1 {color: black; text-align: center; padding-top: 36px; }
+.about p {color: black; text-align: center; padding-top: 20px;
+    padding-bottom: 0px;
+    line-height: 2.5; }
+
+.more { text-align: center; padding: 15px; color: blue!important; }
+
+
+
+/*cakes*/
+
+.curry { padding: 20px; }
+.curry .cake_row { margin: 15px auto; background-color: 	#efefef; border-radius: 15px; }
+.curry_row .rices_poster { float: left;width:15%; }
+.rices_poster img { width: 100%; border-top-left-radius: 15px;border-bottom-left-radius: 15px; }
+.rices_detail { padding-left: 25px!important; float: left; width: 80%; }
+.rices_detail p:nth-child(1) { padding: 10px 0px; }
+.rices_detail h3 { padding: 10px 0px; }
+.rices_detail table  { text-align: left; }
+.rices_detail table tr * { padding: 5px 10px; }
+.btn{
+	width:78px;
+	float:right;
+	margin-right: 258px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+
+
+
+/*ADMIN Home*/
+
+.news { padding: 20px; }
+.news_box { width: 47%; float: left;margin: 10px; border-radius: 10px; border: 5px solid #000000; background-color: #D3D3D3 text-align: center; }
+.news_img { width: 100%; text-align: center; }
+.news_img img { width: 250px; padding:50px; }
+.news_heading { padding: 15px; }
+
+
+/* contact page */
+
+.contact_form { padding: 30px; }
+.form_row { width: 100%; padding: 15px; }
+.form_row label { display: block; padding: 10px 0px; font-weight: bold }
+.form_row input, .form_row textarea { display: block; padding: 10px; width: 100%; border: 1px solid lightgray!important;border-radius: 10px; }
+.form_row button { padding: 10px; width: 110px;border-radius: 5px; float: right; font-weight: bold;background-color: transparent;color: black; }
+.form_row button:hover{
+	background-color: pink;
+	
+}
+
+/* Signup page */
+
+.Signup_form { padding: 30px; }
+.form_row { width: 100%; padding: 15px; }
+.form_row label { display: block; padding: 10px 0px; font-weight: bold }
+.form_row input, .form_row textarea { display: block; padding: 10px; width: 100%; border: 1px solid lightgray!important;border-radius: 10px; }
+
+.signup_form form {
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+input.btn[type="submit"] {
+    width: 100px !important;
+    display: block !important;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+
+  
+ /*manage product*/
+  table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+button { padding: 15px; width: 200px; float: right center; font-weight: bold;background-color: grey;color: black; }
+
+
+/*customer Password*/
+
+.btn {
+    width: 78px;
+    float: right;
+    margin-right: 462px;
+    padding: 5px;
+    margin-top: -15px;
+}
+
+
+/*FOOTER */
+
+footer { text-align: center; padding: 20px; }
+footer h1 { font-size: 40px;padding-top: 15px;
+    padding-bottom: 15px; }
+footer a:hover  { color: white; }
+footer ul { list-style: none; }
+footer strong { margin: 10px; }
+footer ul li { padding: 5px }
+.width p {
+    font-size: 14px;
+    line-height: 2.0;
+}
+h2 {
+    font-size: 20px;
+}
+.about p {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    line-height: 1.7;
+}
